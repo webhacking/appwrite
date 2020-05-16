@@ -111,24 +111,6 @@ $graph = $this->getParam('graph', false);
                     <input type="hidden" name="platformId" data-ls-bind="{{platform.$id}}" />
                 </form>
 
-<<<<<<< HEAD
-                <div>
-                    <div class="pull-start margin-end avatar-container">
-                        <img src="" data-ls-attrs="src=/images/clients/{{platform.type}}.png?v=<?php echo APP_CACHE_BUSTER; ?>" class="avatar" loading="lazy" width="60" height="60" />
-                        
-                        <div data-ls-if="{{platform.type}} === 'flutter-ios'" class="corner">
-                            <img src="" data-ls-attrs="src=/images/clients/ios.png?v=<?php echo APP_CACHE_BUSTER; ?>" class="avatar xs" loading="lazy" width="30" height="30" />
-                        </div>
-                        
-                        <div data-ls-if="{{platform.type}} === 'flutter-android'" class="corner">
-                            <img src="" data-ls-attrs="src=/images/clients/android.png?v=<?php echo APP_CACHE_BUSTER; ?>" class="avatar xs" loading="lazy" width="30" height="30" />
-                        </div>
-                    </div>
-                    <span data-ls-bind="{{platform.name}}"></span>
-                </div>
-
-                <p class="margin-bottom-no" style="margin-top: 10px;"><small data-ls-bind="{{platform.hostname}}{{platform.key}}"></small></p>
-=======
                 <div class="pull-end desktops-only">
                     <button data-ls-ui-trigger="platform-delete-{{platform.$id}}" class="reverse danger margin-end-small">Delete</button>
                     <button data-ls-ui-trigger="platform-update-{{platform.$id}}">Update</button>
@@ -145,7 +127,6 @@ $graph = $this->getParam('graph', false);
                     <button class="link" data-ls-ui-trigger="platform-update-{{platform.$id}}">Update</button>
                     <button class="link danger" data-ls-ui-trigger="platform-delete-{{platform.$id}}">Delete</button>
                 </div>
->>>>>>> 5aa3e768df90bc7842c0f674c0ba19cb9bab161e
             </li>
         </ul>
     </div>
@@ -165,21 +146,6 @@ $graph = $this->getParam('graph', false);
     <div class="drop-list pull-start" data-ls-ui-open="" data-button-text="Add Platform" data-button-class="button" data-blur="1" tabindex="1">
         <ul>
             <li>
-<<<<<<< HEAD
-                <div class="link web-new"><img src="/images/clients/web.png?v=<?php echo APP_CACHE_BUSTER; ?>" alt="Web Platform Logo" class="avatar xxs margin-end-small" /> New Web App</div>
-            </li>
-            <li>
-                <div class="link flutter-new"><img src="/images/clients/flutter.png?v=<?php echo APP_CACHE_BUSTER; ?>" alt="Flutter Platform Logo" class="avatar xxs margin-end-small" /> New Flutter App &nbsp;<span class="text-size-tiny">(beta)</span></div>
-            </li>
-            <li class="disabled">
-                <div class="link ios-new"><img src="/images/clients/ios.png?v=<?php echo APP_CACHE_BUSTER; ?>" alt="iOS Platform Logo" class="avatar xxs margin-end-small" /> New iOS App</div>
-            </li>
-            <li class="disabled">
-                <div class="link android-new"><img src="/images/clients/android.png?v=<?php echo APP_CACHE_BUSTER; ?>" alt="Android Platform Logo" class="avatar xxs margin-end-small" /> New Android App</div>
-            </li>
-            <li class="disabled">
-                <div class="link unity-new"><img src="/images/clients/unity.png?v=<?php echo APP_CACHE_BUSTER; ?>" alt="Unity Platform Logo" class="avatar xxs margin-end-small" /> New Unity Game</div>
-=======
                 <button class="link web-new"><img src="/images/clients/web.png?v=<?php echo APP_CACHE_BUSTER; ?>" alt="Web Platform Logo" class="avatar xs margin-end" /> New Web App</button>
             </li>
             <li class="disabled">
@@ -190,7 +156,6 @@ $graph = $this->getParam('graph', false);
             </li>
             <li class="disabled">
                 <button class="link unity-new"><img src="/images/clients/unity.png?v=<?php echo APP_CACHE_BUSTER; ?>" alt="Unity Platform Logo" class="avatar xs margin-end" /> New Unity Game</button>
->>>>>>> 5aa3e768df90bc7842c0f674c0ba19cb9bab161e
             </li>
         </ul>
     </div>

@@ -1266,21 +1266,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/polyfill-php72.git",
-<<<<<<< HEAD
-                "reference": "37b0976c78b94856543260ce09b460a7bc852747"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/symfony/polyfill-php72/zipball/37b0976c78b94856543260ce09b460a7bc852747",
-                "reference": "37b0976c78b94856543260ce09b460a7bc852747",
-=======
                 "reference": "41d115ace412a5a006a92f29a51c7d863e28482b"
             },
             "dist": {
                 "type": "zip",
                 "url": "https://api.github.com/repos/symfony/polyfill-php72/zipball/41d115ace412a5a006a92f29a51c7d863e28482b",
                 "reference": "41d115ace412a5a006a92f29a51c7d863e28482b",
->>>>>>> 5aa3e768df90bc7842c0f674c0ba19cb9bab161e
                 "shasum": ""
             },
             "require": {
@@ -1322,11 +1313,7 @@
                 "portable",
                 "shim"
             ],
-<<<<<<< HEAD
-            "time": "2020-02-27T09:26:54+00:00"
-=======
             "time": "2020-04-13T15:22:19+00:00"
->>>>>>> 5aa3e768df90bc7842c0f674c0ba19cb9bab161e
         },
         {
             "name": "utopia-php/abuse",
@@ -1758,11 +1745,7 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/appwrite/sdk-generator",
-<<<<<<< HEAD
-                "reference": "1c5a473c38d5a187d242399419e413e475836d46"
-=======
                 "reference": "b1dd41a7f4b3074a6f27e9bae23c5d7bcf397097"
->>>>>>> 5aa3e768df90bc7842c0f674c0ba19cb9bab161e
             },
             "require": {
                 "ext-curl": "*",
@@ -1792,11 +1775,7 @@
                 }
             ],
             "description": "Appwrite PHP library for generating API SDKs for multiple programming languages and platforms",
-<<<<<<< HEAD
-            "time": "2020-04-19T03:49:17+00:00"
-=======
             "time": "2020-04-30T06:48:22+00:00"
->>>>>>> 5aa3e768df90bc7842c0f674c0ba19cb9bab161e
         },
         {
             "name": "doctrine/instantiator",
@@ -2123,21 +2102,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/phpDocumentor/ReflectionCommon.git",
-<<<<<<< HEAD
-                "reference": "74a67151cce1fe4aa5960636ae510ddf1faefdb3"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/phpDocumentor/ReflectionCommon/zipball/74a67151cce1fe4aa5960636ae510ddf1faefdb3",
-                "reference": "74a67151cce1fe4aa5960636ae510ddf1faefdb3",
-=======
                 "reference": "985f414b55eca4296ffc99db960a97b3cc8fbcea"
             },
             "dist": {
                 "type": "zip",
                 "url": "https://api.github.com/repos/phpDocumentor/ReflectionCommon/zipball/985f414b55eca4296ffc99db960a97b3cc8fbcea",
                 "reference": "985f414b55eca4296ffc99db960a97b3cc8fbcea",
->>>>>>> 5aa3e768df90bc7842c0f674c0ba19cb9bab161e
                 "shasum": ""
             },
             "require": {
@@ -2173,11 +2143,7 @@
                 "reflection",
                 "static analysis"
             ],
-<<<<<<< HEAD
-            "time": "2020-04-10T20:41:10+00:00"
-=======
             "time": "2020-04-27T09:34:19+00:00"
->>>>>>> 5aa3e768df90bc7842c0f674c0ba19cb9bab161e
         },
         {
             "name": "phpdocumentor/reflection-docblock",
